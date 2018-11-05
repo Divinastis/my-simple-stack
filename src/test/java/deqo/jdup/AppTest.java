@@ -20,7 +20,7 @@ public class AppTest
 
     @Test
     public void main(){
-
+//test first issue
         App app = new App();
         String [] s = new String[2];
         App.main(s);
