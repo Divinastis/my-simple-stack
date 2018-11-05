@@ -17,4 +17,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @Test
+    public void main(){
+
+        App app = new App();
+        String [] s = new String[2];
+        App.main(s);
+    }
 }
